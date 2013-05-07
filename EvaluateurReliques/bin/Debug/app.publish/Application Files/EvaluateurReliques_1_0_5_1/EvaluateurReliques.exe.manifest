@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="EvaluateurReliques.exe" version="1.0.5.1" publicKeyToken="dfa24fbf82a9c8ec" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EvaluateurReliques" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="EvaluateurReliques.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options du manifeste de contrôle de compte d'utilisateur
+          Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le 
+          nœud requestedExecutionLevel par l'une des propositions suivantes :
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la 
+         compatibilité descendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EvaluateurReliques.exe" size="104448">
+      <assemblyIdentity name="EvaluateurReliques" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>TFU/nzNrNU/P1g6BUrAZwtVOhdc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=NODEVO\availlant" issuerKeyHash="e80a2d6b0e765a2e020fabb3a4824fa4aa402493" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eWoAVZrOYhL29Jila9Cyhn+n+ME=</DigestValue></Reference></SignedInfo><SignatureValue>V7CNdA2IYrJ4cPdSR7Idkd6U1IerZq7mYyoTz6Svgv+vvLw75PsiXjuLKSBYDHjl2Cdva5wRLSHwX8QIQHYFBmXXn+TKfJ6hC6+u+yiA4YKRbCmmrCuyiwYEKE4PHBbTIJwZ6KQRp3vVR1IKaaOKc+VT1CdfIhfNiREltc/4pFM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>va6UT4nxKaojfSG7wyredYzLotrR7GIRl0pBlFsaOhQzyKzWiADWw+mCiW75haVxkGC9nEbW33o80nUCNjLj0TgOGvyQXO7rl8lSHvALw0nLf+orl3AzzUZlfltSmoDGCo+W2T+sB2RaDARTGcPMTZktzOK3TE4YSy6cRIzkS7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c1f8a77f86b2d06ba598f4f61262ce9a55006a79" Description="" Url=""><as:assemblyIdentity name="EvaluateurReliques.exe" version="1.0.5.1" publicKeyToken="dfa24fbf82a9c8ec" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NODEVO\availlant</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s+ZmWpU5mbqzGU56o1hXPf2PAD0=</DigestValue></Reference></SignedInfo><SignatureValue>BMZk/YV7I/c3aL0gUZCyficohW64aVKC21zKvkNf2bSW6LR9/NshN0PEbPlZIKlJi0hlur2WXPAysWEiqfscLs0a9/WD34mSxL2V0LmIfYHRWBPi3MVBwv0KxD2+CaYD5Ge0kIOgHOu0MlzLgS6TP2Y6eeUY4ciZLRdzUDcHy8A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>va6UT4nxKaojfSG7wyredYzLotrR7GIRl0pBlFsaOhQzyKzWiADWw+mCiW75haVxkGC9nEbW33o80nUCNjLj0TgOGvyQXO7rl8lSHvALw0nLf+orl3AzzUZlfltSmoDGCo+W2T+sB2RaDARTGcPMTZktzOK3TE4YSy6cRIzkS7k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQGQvzF63yG4pDHbnRsMT5OTANBgkqhkiG9w0BAQUFADArMSkwJwYDVQQDHiAATgBPAEQARQBWAE8AXABhAHYAYQBpAGwAbABhAG4AdDAeFw0xMzAzMDcxMTA4NDZaFw0xNDAzMDcxNzA4NDZaMCsxKTAnBgNVBAMeIABOAE8ARABFAFYATwBcAGEAdgBhAGkAbABsAGEAbgB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9rpRPifEpqiN9IbvDKt51jMui2tHsYhGXSkGUWxo6FDPIrNaIANbD6YKJbvmFpXGQYL2cRtbfejzSdQI2MuPROA4a/JBc7uuXyVIe8AvDSct/6iuXcDPNRmV+W1KagMYKj5bZP6wHZFoMBFMZw8xNmS3M4rdMThhLLpxEjORLuQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAKEYNYu4ARiMJy0CxLwg9GuvZnuePPBbKa3ARy5XdEfpw3LK4boY/l7l1jPMy6qi4hRvSp+5a3urLV8sX9WBOBuxAxXGYG57pcG9/Wt4DgMqYPU7TYUAzog5m4t86NALrPxvRNc05b+niABaGbDn8fnwtT2sSoqNC3++dQzmumxw</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

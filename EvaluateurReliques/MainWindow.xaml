@@ -1,0 +1,39 @@
+﻿<Window x:Class="EvaluateurReliques.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Evaluateur de reliques" Height="516" Width="1420" xmlns:my="clr-namespace:EvaluateurReliques" xmlns:controls="clr-namespace:EvaluateurReliques.Controls" Icon="/EvaluateurReliques;component/bin/Debug/Images/icone-maj.png">
+    <ScrollViewer HorizontalScrollBarVisibility="Auto">
+        <Grid Name="rootGrid" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <controls:ReliqueControl Height="40" HorizontalAlignment="Left" Margin="12,12,0,0" x:Name="Relique1" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="12,58,0,0" x:Name="Relique2" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="12,104,0,0" x:Name="Relique3" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="12,150,0,0" x:Name="Relique4" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="323,12,0,0" x:Name="Relique5" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="323,58,0,0" x:Name="Relique6" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="323,104,0,0" x:Name="Relique7" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="323,150,0,0" x:Name="Relique8" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="634,12,0,0" x:Name="Relique9" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="634,58,0,0" x:Name="Relique10" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="634,104,0,0" x:Name="Relique11" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="634,150,0,0" x:Name="Relique12" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="945,12,0,0" x:Name="Relique13" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="945,58,0,0" x:Name="Relique14" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="945,104,0,0" x:Name="Relique15" VerticalAlignment="Top" Width="305" />
+            <controls:ReliqueControl Grid.Row="0" Height="40" HorizontalAlignment="Left" Margin="945,150,0,0" x:Name="Relique16" VerticalAlignment="Top" Width="305" />
+            <Rectangle Grid.Row="0" Height="1" HorizontalAlignment="Left" Margin="0,198,0,0" Name="rectangle1" Stroke="Black" VerticalAlignment="Top" Width="1260" />
+            <Label Grid.Row="0" Content="Nombre de joueurs : " Height="28" HorizontalAlignment="Left" Margin="503,205,0,0" Name="label1" VerticalAlignment="Top" Width="125" />
+            <controls:NumericEditor Grid.Row="0" Background="LightBlue" CommandManager.PreviewExecuted="numPlayerNumber_PreviewExecuted" Height="28" HorizontalAlignment="Left" Margin="648,205,0,0" x:Name="numPlayerNumber" VerticalAlignment="Top" Width="51" TextChanged="numPlayerNumber_TextChanged" />
+            <Button Content="Répartir" Grid.Row="0" Height="27" HorizontalAlignment="Left" Margin="778,206,0,0" Name="buttonRepartir" VerticalAlignment="Top" Width="75" Click="buttonRepartir_Click" />
+            <Button Content="RAZ Reliques" Grid.Row="0" Height="27" HorizontalAlignment="Left" Margin="864,206,0,0" Name="buttonRazReliques" VerticalAlignment="Top" Width="75" Click="buttonRazReliques_Click" />
+            <Rectangle Height="1" Grid.Row="0" HorizontalAlignment="Left" Margin="0,239,0,0" Name="rectangle2" Stroke="Black" VerticalAlignment="Top" Width="1260" />
+            <Label Background="LightGray" Content="" Grid.Row="0" Height="Auto" HorizontalAlignment="Left" Margin="12,246,0,0" MinWidth="1236" Name="labelResultat" VerticalAlignment="Top" Width="Auto" />
+            <Rectangle Grid.Row="1" Height="1" HorizontalAlignment="Left" Margin="0,7,0,0" Name="rectangle3" Stroke="Black" VerticalAlignment="Top" Width="1260" />
+            <Button Content="RAZ Joueurs" Height="27" HorizontalAlignment="Left" Margin="950,206,0,0" Name="buttonRazJoueurs" VerticalAlignment="Top" Width="75" Click="buttonRazJoueurs_Click" />
+            <DataGrid Grid.Row="2" HorizontalAlignment="Left" Margin="12,12,0,0" Name="datagridJoueurs" Width="1236"></DataGrid>
+        </Grid>
+    </ScrollViewer>
+</Window>
