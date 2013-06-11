@@ -10,6 +10,7 @@ namespace EvaluateurReliques.Classes
     {
         private int _position;
 
+
         private int _pointsAbyssauxTotaux;
         private int _pointsAbyssauxGagnes;
         

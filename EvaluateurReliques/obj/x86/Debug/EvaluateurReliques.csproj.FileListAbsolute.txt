@@ -24,3 +24,5 @@ C:\Users\availlant\documents\visual studio 2010\Projects\EvaluateurReliques\Eval
 C:\Users\availlant\documents\visual studio 2010\Projects\EvaluateurReliques\EvaluateurReliques\obj\x86\Debug\EvaluateurReliques.application
 C:\Users\availlant\Documents\Visual Studio 2010\Projects\EvaluateurReliqueGit\EvaluateurReliques\obj\x86\Debug\EvaluateurReliques.exe
 C:\Users\availlant\Documents\Visual Studio 2010\Projects\EvaluateurReliqueGit\EvaluateurReliques\obj\x86\Debug\EvaluateurReliques.pdb
+C:\Users\Alexis\Documents\Visual Studio 2010\Projects\EvaluateurRelique\EvaluateurReliques\obj\x86\Debug\EvaluateurReliques.exe
+C:\Users\Alexis\Documents\Visual Studio 2010\Projects\EvaluateurRelique\EvaluateurReliques\obj\x86\Debug\EvaluateurReliques.pdb
